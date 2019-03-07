@@ -1,0 +1,845 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico" />
+    <link rel="stylesheet" href="../stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="../libs/bootstrap-datetimepicker-master/build/css/bootstrap-datetimepicker.css">
+    <link rel="stylesheet" href="../stylesheets/style.css">
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+
+    <ul id="nav">
+      <li class="nav-logo">
+        <a href="#">
+          <div style="display: inline-block">
+            <img class="nav-logo-image" src="../images/shopStopLogo.png">
+          </div>
+          <div class="centerElem" style="display: inline-block">
+            <p><span class="fontBold logoText">SHOP</span><br><span class="fontLight logoText">STOP</span></p>
+          </div>
+        </a>
+      </li>
+
+      <li class="nav-search nav-menu">
+        <a href="#">
+          <img class="centerElem" src="../images/searchImage.png">
+        </a>
+
+        <div class="nav-search-dropdown">
+          <img class="rectangle-icon" src="../images/rectangleIcon.png">
+          <input type="text" placeholder="Encuentra lo que estás buscando">
+          <button href="#" class="nav-search-btn"> BUSCAR </button>
+        </div>
+      </li>
+
+      <li class="nav-last nav-menu">
+        <a href="#">
+          LO ÚLTIMO
+          <br>
+          <img src="../images/plusIcon.png">
+        </a>
+
+        <div class="nav-item-list nav-last-list">
+          <ul>
+            <li>ITEM 1</li>
+            <li>ITEM 2</li>
+          </ul>
+        </div>
+      </li>
+
+
+      <li class="nav-home nav-menu">
+        <a href="#">
+          HOGAR
+          <br>
+          <img src="../images/plusIcon.png">
+        </a>
+
+        <div class="nav-item-list nav-home-list">
+          <ul>
+            <li>HOGAR ITEM 1</li>
+            <li>HOGAR ITEM 2</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="nav-tecno nav-menu">
+        <a href="#">
+          TECNO
+          <br>
+          <img src="../images/plusIcon.png">
+        </a>
+
+        <div class="nav-item-list nav-tecno-list">
+          <ul>
+            <li>TELÉFONOS CELULARES</li>
+            <li>TABLETS</li>
+            <li>CONSOLAS Y VIDEOJUEGOS</li>
+            <li>SMART TVs</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="nav-vogue nav-menu">
+        <a href="#">
+          MODA
+          <br>
+          <img src="../images/plusIcon.png">
+        </a>
+
+        <div class="nav-item-list nav-vogue-list">
+          <ul>
+            <li>MODA ITEM 1</li>
+            <li>MODA ITEM 2</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="nav-hobbies nav-menu">
+        <a class="active" href="#">
+          HOBBIE
+          <br>
+          <img src="../images/plusIcon.png">
+        </a>
+
+        <div class="nav-item-list nav-hobbies-list">
+          <ul>
+            <li>HOBBIE ITEM 1</li>
+            <li>HOBBIE ITEM 2</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="nav-sports nav-menu">
+        <a href="#">
+          DEPORTES
+          <br>
+          <img src="../images/plusIcon.png">
+        </a>
+        
+        <div class="nav-item-list nav-sports-list">
+          <ul>
+            <li>DEPORTES ITEM 1</li>
+            <li>DEPORTES ITEM 2</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="menu-toggle">
+        <a href="#"><img class="centerElem" src="../images/menuImage.png"></a>
+      </li>
+
+      <div class="nav-menu-list visibility">
+        <ul class="">
+          <li><a href="">INGRESAR</a></li>
+          <li><a href="">REGISTRARSE</a></li>
+          <li><a href="">FAVORITOS</a></li>
+        </ul>
+      </div>
+
+      <li class="nav-cart nav-cart-group">
+        <a href="#">
+          <div class="centerElem">
+            <img class="cartIcon" src="../images/cartImage.png">
+            <span class="badge cartBadge">2</span>
+            <p class="colorWhite">$1059.90</p>
+          </div>
+        </a>
+      </li>
+
+      <div class="nav-cart-list nav-cart-group visibility">
+        <ul class="nav-cart-head">
+          <li>Productos</li>
+          <li>Cantidad</li>
+          <li>Precio</li>
+        </ul>
+        <ul class="nav-cart-body">
+          <li>
+            <p class="nav-cart-title">Reloj Apple watch</p>
+            <p class="nav-cart-desc">Lorem ipsum dolor sit amet</p>
+          </li>
+          <li>1</li>
+          <li>$ 659.00</li>
+        </ul>
+        <ul class="nav-cart-body">
+          <li>
+            <p class="nav-cart-title">Mortero de madera</p>
+            <p class="nav-cart-desc">Lorem ipsum dolor sit amet</p>
+          </li>
+          <li>1</li>
+          <li>$ 400.90</li>
+        </ul>
+        <ul class="nav-cart-footer">
+          <li>Total: $ 1059.90</li>
+          <li>CONFIRMAR COMPRA</li>
+        </ul>
+      </div>
+
+      <li class="nav-signIn">
+        <a href="#">
+          <div class="centerElem">
+            <img class="userIcon" src="../images/userIconImage.png">
+            <p class="visibility">INGRESAR</p>
+            <p class="greetings">HOLA JOAQUIN</p>
+          </div>
+        </a>
+      </li>
+
+      <!--<li class="nav-signIn">
+        <a href="#">
+          <div class="centerElem">
+            <img class="userIcon" src="../images/userIconImage.png">
+            <p>HOLA JOAQUÍN</p>
+          </div>
+        </a>
+      </li>-->
+
+      <div class="nav-signIn-dropdown visibility">
+        <div class="nav-signIn-inputs row col-md-12 no-padding">
+
+          <div class="col-md-2 no-padding">
+            <img class="fb-sign-icon" src="../images/fbIcon.png">
+          </div>
+          <div class="col-md-4 no-padding">
+            <img class="email-rectangle-icon" src="../images/rectangleIcon.png">
+            <input class="signIn-password" type="text" placeholder="Ingresa tu E-mail">
+          </div>
+          <div class="col-md-4 no-padding">
+            <img class="pass-rectangle-icon" src="../images/rectangleIcon.png">
+            <input class="signIn-password" type="password" placeholder="Ingresa tu contraseña">
+          </div>
+          <div class="col-md-2 no-padding">
+            <img class="lostpass-icon no-padding" src="../images/unknownIcon.png">
+          </div>
+        </div>
+        <ul class="nav-signIn-buttons">
+          <li><a href="#">INGRESAR</a></li>
+          <li data-toggle="modal" data-target="#registerModal"><a href="#" >REGISTRARSE</a></li>
+        </ul>
+      </div>
+    </ul>
+
+    <!-- END HEADER -->
+
+    <!-- ACCOUNT COVER PAGE -->
+
+    <div class="coverPageContainer"></div>
+
+    <div class="accountPanelContainer">
+      <div class="accountPanelTabs col-md-8">
+        <div class="accountTab accountTabPanel panel-active col-md-3 no-select">PANEL DE CONTROL</div>
+        <div class="accountTab accountTabInfo col-md-3 no-select">INFO DE CUENTA</div>
+        <div class="accountTab accountTabDir col-md-3 no-select">DIRECCIONES</div>
+        <div class="accountTab accountTabOrder col-md-3 no-select">MIS PEDIDOS</div>
+      </div>
+
+      <div class="accountFirstTab">
+        <div class="accountFirstTabContent col-md-10">
+          <div class="account-inside-div">
+            <h4>MI PANEL DE CONTROL</h4>
+            <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum is simply dummy text of the printing and typesetting industry.Lorem ipsum is simply dummy text of the printing and typesetting industry. </p>
+          </div>
+
+          <div class="account-inside-div">
+            <h4 class="account-panel-h4">PEDIDOS RECIENTES</h4>
+            <button class="float-right account-panel-btn">VER TODOS</button>
+          </div>
+
+          <table class="table account-panel-table">
+            <thead>
+              <tr>
+                <th>NRO. PEDIDO</th>
+                <th>FECHA</th>
+                <th>ENVIADO A</th>
+                <th>SUBTOTAL</th>
+                <th>ESTADO</th>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>100246484</td>
+                <td>27/6/2017</td>
+                <td>Joaquín Cuscuela</td>
+                <td>$ 958,50</td>
+                <td>Informado</td>
+                <td><a href="#"><b>VER</b></a></td>
+                <td><a href="#"><b>REPETIR</b></a></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="account-inside-div">
+            <h4 class="account-panel-h4">INFORMACIÓN DE MI CUENTA</h4>
+          </div>
+
+          <div class="section-div row">
+            <div class="section-left col-md-6 col-sm-6 col-xs-12 float-left">
+              <div class="section-title">
+                <h6><b>DIRECCIÓN DE CONTACTO</b></h6>
+                <span class="float-right"><b>EDITAR</b></span>
+              </div>
+              <p>Joaquín Cuscuela</p>
+              <p>jcs@gmail.com</p>
+              <button class="account-panel-btn-2"><a>CAMBIAR CONTRASEÑA</a></button>
+            </div>
+
+            <div class="section-right col-md-6 col-sm-6 col-xs-12 float-right">
+              <div class="section-title">
+                <h6><b>NEWSLETTER</b></h6>
+                <span class="float-right"><b>EDITAR</b></span>
+              </div>
+              <p>Actualmente estás suscrito al Newsletter.</p>
+            </div>
+          </div>
+
+          <div class="account-inside-div">
+            <h4 class="account-panel-h4">LIBRETA DE DIRECCIONES</h4>
+          </div>
+
+          <div class="section-div row">
+            <div class="section-left col-md-6 col-sm-6 col-xs-12 float-left">
+              <div class="section-title">
+                <h6><b>DIRECCIÓN DE FACTURACIÓN</b></h6>
+                <span class="float-right"><b>EDITAR</b></span>
+              </div>
+              <p>Joaquín Cuscuela</p>
+              <p>Alcaraz 5767 Piso Depto 4 C.A.B.A, C.A.B.A, CP 1407</p>
+              <p>Argentina</p>
+              <p>T 35348013</p>
+            </div>
+
+            <div class="section-right col-md-6 col-sm-6 col-xs-12 float-right">
+              <div class="section-title">
+                <h6><b>DIRECCIÓN DE ENVÍO</b></h6>
+                <span class="float-right"><b>EDITAR</b></span>
+              </div>
+              <p>Joaquín Cuscuela</p>
+              <p>Alcaraz 5767 Piso Depto 4 C.A.B.A, C.A.B.A, CP 1407</p>
+              <p>Argentina</p>
+              <p>T 35348013</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="accountSecondTab visibility">
+        <div class="accountSecondTabContent col-md-10">
+          <div class="account-inside-div">
+            <h4>CAMBIAR LA INFORMACIÓN DE LA CUENTA</h4>
+          </div>
+          <input class="account-panel-input col-md-6" type="text" placeholder="Nombre">
+          <input class="account-panel-input col-md-6" type="text" placeholder="Apellido">
+          <input class="account-panel-input col-md-6" type="text" placeholder="Email">
+          <div class="account-inside-div">
+            <h4>FECHA DE NACIMIENTO</h4>
+          </div>
+          <div class="col-md-12 row no-padding">
+            <input id="fecha-cuenta" class="account-panel-input col-md-6" type="text" placeholder="DD/MM/AAAA">
+          </div>
+          <!-- <div class="col-md-12 row no-padding">
+            <div class="col-md-2 no-padding-left"><input class="account-panel-input col-md-12" type="number" placeholder="Día"></div>
+            <div class="col-md-2 no-padding"><input class="account-panel-input col-md-12" type="number" placeholder="Mes"></div>
+            <div class="col-md-2 no-padding-right"><input class="account-panel-input col-md-12" type="number" placeholder="Año"></div>
+          </div> -->
+          <div class="checkbox-inputs col-md-12">
+            <h4 class="inline-block">GÉNERO: </h4>
+            <input class="panel-checks" id="femaleCheck" type="checkbox" name="genero"><label style="margin-bottom: 0.6rem">Femenino</label>
+            <input class="panel-checks" id="maleCheck" type="checkbox" name="genero"><label style="margin-bottom: 0.6rem">Masculino</label>
+          </div>
+          <input class="account-panel-input col-md-6" type="text" placeholder="DNI">
+          <input class="account-panel-input col-md-6" type="text" placeholder="Teléfono">
+          <div class="checkbox-inputs">
+            <input class="panel-checks no-margin-left" id="" type="checkbox" name=""><label style="margin-bottom: 0.6rem;">Cambiar contraseña</label>
+          </div>
+          <button class="account-panel-btn-2 save-btn">GUARDAR</button>
+          
+        </div>
+      </div>
+
+      <div class="accountThirdTab visibility">
+        <div class="accountThirdTabContent col-md-10">
+          <div class="account-inside-div">
+              <h4 class="account-panel-h4">LIBRETA DE DIRECCIONES</h4>
+            </div>
+  
+            <div class="section-div row">
+              <div class="section-left col-md-6 col-sm-6 col-xs-12 float-left">
+                <div class="section-title">
+                  <h6><b>DIRECCIÓN DE FACTURACIÓN</b></h6>
+                </div>
+                <p>Joaquín Cuscuela</p>
+                <p>Alcaraz 5767 Piso Depto 4 C.A.B.A, C.A.B.A, CP 1407</p>
+                <p>Argentina</p>
+                <p>T 35348013</p>
+                <button class="account-panel-btn-2"><a>CAMBIAR DIRECCIÓN DE FACTURACIÓN</a></button>
+              </div>
+  
+              <div class="section-right col-md-6 col-sm-6 col-xs-12 float-right">
+                <div class="section-title">
+                  <h6><b>ANOTACIONES ADICIONALES DE DIRECCIÓN</b></h6>
+                </div>
+                <p>No tienes anotaciones adicionales de dirección en tu libreta de direcciones.</p>
+              </div>
+
+              <div class="section-left-facturacion col-md-6 col-sm-6 col-xs-12 float-left">
+                <div class="section-title">
+                  <h6><b>DIRECCIÓN DE ENVÍO</b></h6>
+                </div>
+                <p>Joaquín Cuscuela</p>
+                <p>Alcaraz 5767 Piso Depto 4 C.A.B.A, C.A.B.A, CP 1407</p>
+                <p>Argentina</p>
+                <p>T 35348013</p>
+                <button class="account-panel-btn-2"><a>CAMBIAR DIRECCIÓN DE ENVÍO</a></button>
+              </div>
+
+              <!-- <div class="section-right col-md-6 col-sm-6 col-xs-12 float-right">
+                <div class="section-title">
+                  <h6><b>DIRECCIÓN DE ENVÍO</b></h6>
+                  <span class="float-right"><b>EDITAR</b></span>
+                </div>
+                <p>Joaquín Cuscuela</p>
+                <p>Alcaraz 5767 Piso Depto 4 C.A.B.A, C.A.B.A, CP 1407</p>
+                <p>Argentina</p>
+                <p>T 35348013</p>
+              </div> -->
+            </div>
+        </div>
+      </div>
+
+      <div class="accountFourthTab visibility">
+        <div class="accountFourthTabContent col-md-10">
+          <div class="account-inside-div">
+            <h4 class="account-panel-h4">MIS PEDIDOS</h4>
+          </div>
+
+          <table class="table account-panel-table">
+            <thead>
+              <tr>
+                <th>NRO. PEDIDO</th>
+                <th>FECHA</th>
+                <th>ENVIADO A</th>
+                <th>SUBTOTAL</th>
+                <th>ESTADO</th>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>100246484</td>
+                <td>27/6/2017</td>
+                <td>Joaquín Cuscuela</td>
+                <td>$ 958,50</td>
+                <td>Informado</td>
+                <td><a href="#"><b>VER</b></a></td>
+                <td><a href="#"><b>REPETIR</b></a></td>
+              </tr>
+            </tbody>
+          </table> 
+
+          <input class="table-rows-input no-padding float-right" type="number" placeholder="10">
+          <span class="float-right">1 artículo(s) &nbsp;&nbsp;&nbsp;&nbsp;<b>Mostrar: &nbsp;&nbsp;</b></span>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- END ACCOUNT COVER PAGE -->
+
+
+    <!-- MOBILE MENU -->
+
+    <!-- <div class="mobile-menu">
+      <div class="mobile-menu-1">
+        <li class="nav-last-mobile nav-menu">
+          <a href="#">
+            LO ÚLTIMO
+            <img src="../images/plusIcon.png">
+          </a>
+
+          <div class="nav-item-list nav-last-list">
+            <ul>
+              <li>ITEM 1</li>
+              <li>ITEM 2</li>
+            </ul>
+          </div>
+        </li>
+
+
+        <li class="nav-home-mobile nav-menu">
+          <a href="#">
+            HOGAR
+            <img src="../images/plusIcon.png">
+          </a>
+
+          <div class="nav-item-list nav-home-list">
+            <ul>
+              <li>HOGAR ITEM 1</li>
+              <li>HOGAR ITEM 2</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="nav-tecno-mobile nav-menu">
+          <a href="#">
+            TECNO
+            <img src="../images/plusIcon.png">
+          </a>
+
+          <div class="nav-item-list nav-tecno-list">
+            <ul>
+              <li>TELÉFONOS CELULARES</li>
+              <li>TABLETS</li>
+              <li>CONSOLAS Y VIDEOJUEGOS</li>
+              <li>SMART TVs</li>
+            </ul>
+          </div>
+        </li>
+      </div>
+      <div class="mobile-menu-2">
+        <li class="nav-vogue-mobile nav-menu">
+          <a href="#">
+            MODA
+            <img src="../images/plusIcon.png">
+          </a>
+
+          <div class="nav-item-list nav-vogue-list">
+            <ul>
+              <li>MODA ITEM 1</li>
+              <li>MODA ITEM 2</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="nav-hobbies-mobile nav-menu">
+          <a class="active" href="#">
+            HOBBIE
+            <img src="../images/plusIcon.png">
+          </a>
+
+          <div class="nav-item-list nav-hobbies-list">
+            <ul>
+              <li>HOBBIE ITEM 1</li>
+              <li>HOBBIE ITEM 2</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="nav-sports-mobile nav-menu">
+          <a href="#">
+            DEPORTES
+            <img src="../images/plusIcon.png">
+          </a>
+          
+          <div class="nav-item-list nav-sports-list">
+            <ul>
+              <li>DEPORTES ITEM 1</li>
+              <li>DEPORTES ITEM 2</li>
+            </ul>
+          </div>
+        </li>
+      </div>
+    </div> -->
+
+    <!-- END MOBILE MENU -->
+
+    <!-- MOST SOLD -->
+
+    <div class="mostSoldContainer hideOnMobile">
+      <h2>Quizás te gusten</h2>
+      <p class="mostSoldParagraph">Lorem ipsum dolor sit amet.</p>
+
+      <div class="followingWrap">
+        <div class="followingSection float-left">
+          <div class="productWrap float-left">
+            <div class="productImage">
+              <img src="../images/productGlassImage.png">
+            </div>
+            <div class="productDescription">
+              <p class="productSmallName">Ray-Ban aviators</p>
+            </div>
+            <div class="followingButtons">
+              <div class="followingPlusBtn"><img src="../images/plusIconImage.png"></div>
+              <div class="followingPlusDropdown visibility">
+                <div class="followingShareBtn"><img src="../images/shareIconImage.png"></div>
+                <div class="followingFavBtn"><img src="../images/favoriteIconImage.png"></div>
+                <div class="followingPlayBtn"><img src="../images/playIconImage.png"></div>
+                <div class="followingPlayBtnWhite visibility"><img src="../images/playIconImageWhite.png"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="productWrap float-left">
+            <div class="productImage">
+              <img src="../images/productGlassImage.png">
+            </div>
+            <div class="productDescription">
+              <p class="productSmallName">Ray-Ban aviators</p>
+            </div>
+            <div class="followingButtons">
+              <div class="followingPlusBtn"><img src="../images/plusIconImage.png"></div>
+              <div class="followingPlusDropdown visibility">
+                <div class="followingShareBtn"><img src="../images/shareIconImage.png"></div>
+                <div class="followingFavBtn"><img src="../images/favoriteIconImage.png"></div>
+                <div class="followingPlayBtn"><img src="../images/playIconImage.png"></div>
+                <div class="followingPlayBtnWhite visibility"><img src="../images/playIconImageWhite.png"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="productWrap float-left rightBorder">
+            <div class="productImage">
+              <img src="../images/productGlassImage.png">
+            </div>
+            <div class="productDescription">
+              <p class="productSmallName">Ray-Ban aviators</p>
+            </div>
+            <div class="followingButtons">
+              <div class="followingPlusBtn"><img src="../images/plusIconImage.png"></div>
+              <div class="followingPlusDropdown visibility">
+                <div class="followingShareBtn"><img src="../images/shareIconImage.png"></div>
+                <div class="followingFavBtn"><img src="../images/favoriteIconImage.png"></div>
+                <div class="followingPlayBtn"><img src="../images/playIconImage.png"></div>
+                <div class="followingPlayBtnWhite visibility"><img src="../images/playIconImageWhite.png"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="productWrap float-left bottomBorder">
+            <div class="productImage">
+              <img src="../images/productGlassImage.png">
+            </div>
+            <div class="productDescription">
+              <p class="productSmallName">Ray-Ban aviators</p>
+            </div>
+            <div class="followingButtons">
+              <div class="followingPlusBtn"><img src="../images/plusIconImage.png"></div>
+              <div class="followingPlusDropdown visibility">
+                <div class="followingShareBtn"><img src="../images/shareIconImage.png"></div>
+                <div class="followingFavBtn"><img src="../images/favoriteIconImage.png"></div>
+                <div class="followingPlayBtn"><img src="../images/playIconImage.png"></div>
+                <div class="followingPlayBtnWhite visibility"><img src="../images/playIconImageWhite.png"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="productWrap float-left bottomBorder">
+            <div class="productImage">
+              <img src="../images/productGlassImage.png">
+            </div>
+            <div class="productDescription">
+              <p class="productSmallName">Ray-Ban aviators</p>
+            </div>
+            <div class="followingButtons">
+              <div class="followingPlusBtn"><img src="../images/plusIconImage.png"></div>
+              <div class="followingPlusDropdown visibility">
+                <div class="followingShareBtn"><img src="../images/shareIconImage.png"></div>
+                <div class="followingFavBtn"><img src="../images/favoriteIconImage.png"></div>
+                <div class="followingPlayBtn"><img src="../images/playIconImage.png"></div>
+                <div class="followingPlayBtnWhite visibility"><img src="../images/playIconImageWhite.png"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="productWrap float-left bottomBorder rightBorder">
+            <div class="productImage">
+              <img src="../images/productGlassImage.png">
+            </div>
+            <div class="productDescription">
+              <p class="productSmallName">Ray-Ban aviators</p>
+            </div>
+            <div class="followingButtons">
+              <div class="followingPlusBtn"><img src="../images/plusIconImage.png"></div>
+              <div class="followingPlusDropdown visibility">
+                <div class="followingShareBtn"><img src="../images/shareIconImage.png"></div>
+                <div class="followingFavBtn"><img src="../images/favoriteIconImage.png"></div>
+                <div class="followingPlayBtn"><img src="../images/playIconImage.png"></div>
+                <div class="followingPlayBtnWhite visibility"><img src="../images/playIconImageWhite.png"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button><a href="">VER MÁS</a></button>
+
+      </div>
+    </div>
+
+    <!-- END MOST SOLD -->
+
+    <!-- NEWSLETTER -->
+
+    <div class="newsletterContainer">
+      <div class="newsletterWrapContent">
+        <span>NEWSLETTER</span>
+        <img src="../images/rectangleIcon.png">
+        <input type="text" placeholder="Ingresa tu dirección de Email">
+        <button href="#" class="newsletterSendBtn"><a href="#"> ENVIAR </a></button>
+      </div>
+    </div>
+
+    <!-- END NEWSLETTER -->
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+      <div class="footerMobile">
+        <div>
+          <img class="footerShopStopLogo" src="../images/shopStopGreyLogo.png">
+          <a href="#"><img class="footerMercadoPagoLogo float-right" src="../images/mercadoPago.png"></a>
+        </div>
+        <p class="footerTitle">SOBRE NOSOTROS</p>
+        <p class="paragraph">Lorem ipsum dolor sit amet. lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</p>
+        <p class="paragraph">Lorem ipsum dolor sit amet. lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet Lorem ipsum dolor sit amet. lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametLorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</p>
+      </div>
+
+      <div class="footerDesktop">
+        <div class="footerShopStop">
+          <div>
+            <img class="footerShopStopLogo" src="../images/shopStopGreyLogo.png">
+          </div>
+
+          <div>
+            <span>&nbsp;</span>
+            <br>
+            <p>LO ÚLTIMO &nbsp;&nbsp;&nbsp;&nbsp;+<p>
+            <p>HOGAR &nbsp;&nbsp;&nbsp;&nbsp;+<p>
+            <p>TECNO &nbsp;&nbsp;&nbsp;&nbsp;+<p>
+            <p>MODA &nbsp;&nbsp;&nbsp;&nbsp;+<p>
+            <p>HOBBIES &nbsp;&nbsp;&nbsp;&nbsp;+<p>
+            <p>DEPORTES &nbsp;&nbsp;&nbsp;&nbsp;+<p>
+          </div>
+        </div>
+
+        <div class="footerAboutUs">
+          <p class="footerTitle">SOBRE NOSOTROS</p>
+          <p class="paragraph">Lorem ipsum dolor sit amet. lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</p>
+          <p class="paragraph">Lorem ipsum dolor sit amet. lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet Lorem ipsum dolor sit amet. lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametLorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</p>
+        
+          <div>
+            <a href="#"><img class="footerMercadoPagoLogo" src="../images/mercadoPago.png"></a>
+            <a href="#"><img class="footerFbLogo" src="../images/fbLogoGray.png"></a>
+            <a href="#"><img class="footerTwitterLogo" src="../images/twitterLogoGrey.png"></a>
+            <a href="#"><img class="footerGmailLogo" src="../images/gmailLogoGrey.png"></a>
+            <a href="#"><img class="footerYoutubeLogo" src="../images/youtubeLogo.png"></a>
+          </div>
+        </div>
+
+        <div class="footerContactInfo">
+          <div>
+            <p class="footerTitle">CONTACT <b>INFO</b></p>
+
+            <div class="footerContactContent">
+              <img src="../images/gpsGray.png">
+              <div>
+                <p><span>SHOP</span>STOP</p>
+                <p>Freire 3478, Buenos Aires</p>
+              </div>
+            </div>
+
+            <div class="footerContactContent">
+              <img src="../images/phoneGray.png">
+              <div>
+                <p>PHONE</p>
+                <p>+5411 6254 4389</p>
+              </div>
+            </div>
+
+            <div class="footerContactContent">
+              <img class="footerEmailIcon" src="../images/emailGray.png">
+              <div>
+                <p>EMAIL</p>
+                <p>info@stopshop.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footerCopyright">
+      <p>&copy; &nbsp; 2017 - StopShop. Todos los derechos reservados.</p>
+      <p>Powered by</p>
+      <img src="../images/vertigoLogo.png">
+      <p>vertigo design co</p>
+    </div>
+
+    <!-- END FOOTER -->
+
+    <!-- REGISTER MODAL -->
+
+    <div id="registerModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+            <h4 class="modal-title">REGÍSTRATE USANDO TUS REDES</h4>
+            <div>
+              <a href="#"><img class="modal-icon" src="../images/googleIcon.png"></a>
+              <a href="#"><img class="modal-icon" src="../images/fbIcon2.png"></a>
+              <a href="#"><img class="modal-icon" src="../images/twitterIcon.png"></a>
+            </div>
+          </div>
+          <div class="modal-hr"></div>
+          <div class="modal-body">
+            <h4>O CREA TU CUENTA</h4>
+            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder="Apellido">
+            <input type="text" placeholder="Email">
+
+            <p>FECHA DE NACIMIENTO</p>
+            <div class="col-md-12 row no-padding">
+              <input id="fecha-modal" type="text" placeholder="DD/MM/AAAA">
+            </div>
+
+            <div class="checkbox-inputs col-md-12">
+              <span>GENERO: </span>
+              <input id="femaleCheck" type="checkbox" name="genero"><label>Femenino</label>
+              <input id="maleCheck" type="checkbox" name="genero"><label>Masculino</label>
+            </div>
+
+            <input type="text" placeholder="DNI">
+            <input id="registerPhone" type="number" placeholder="Teléfono">
+
+            <div class="offers-div checkbox-inputs col-md-12">
+              <input type="checkbox"><label>Quiero recibir ofertas y noticias sobre productos.</label>
+            </div>
+
+            <div class="register-btn-div col-md-12">
+              <button class="registerBtn" data-dismiss="modal"><a href="#">REGISTRARME</a></button>
+              <span>Si ya tenés una cuenta, por favor ingresá haciendo <a href="#">CLICK AQUÍ</a></span>
+            </div>
+
+          </div>
+
+
+          <!--<div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>-->
+        </div>
+
+      </div>
+    </div>
+
+    <!-- END REGISTER MODAL -->
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/moment.min.js"></script>
+    <script src="../libs/bootstrap-datetimepicker-master/build/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+
+</html>

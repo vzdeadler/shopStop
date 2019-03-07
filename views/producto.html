@@ -1,0 +1,798 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico" />
+    <link rel="stylesheet" href="../stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="../libs/bootstrap-datetimepicker-master/build/css/bootstrap-datetimepicker.css">
+    <link rel="stylesheet" href="../stylesheets/style.css">
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+
+    <ul id="nav">
+      <li class="nav-logo">
+        <a href="#">
+          <div style="display: inline-block">
+            <img class="nav-logo-image" src="../images/shopStopLogo.png">
+          </div>
+          <div class="centerElem" style="display: inline-block">
+            <p><span class="fontBold logoText">SHOP</span><br><span class="fontLight logoText">STOP</span></p>
+          </div>
+        </a>
+      </li>
+
+      <li class="nav-search nav-menu">
+        <a href="#">
+          <img class="centerElem" src="../images/searchImage.png">
+        </a>
+
+        <div class="nav-search-dropdown">
+          <img class="rectangle-icon" src="../images/rectangleIcon.png">
+          <input type="text" placeholder="Encuentra lo que estás buscando">
+          <button href="#" class="nav-search-btn"> BUSCAR </button>
+        </div>
+      </li>
+
+      <li class="nav-last nav-menu">
+        <a href="#">
+          LO ÚLTIMO
+          <br>
+          <img src="../images/plusIcon.png">
+        </a>
+
+        <div class="nav-item-list nav-last-list">
+          <ul>
+            <li>ITEM 1</li>
+            <li>ITEM 2</li>
+          </ul>
+        </div>
+      </li>
+
+
+      <li class="nav-home nav-menu">
+        <a href="#">
+          HOGAR
+          <br>
+          <img src="../images/plusIcon.png">
+        </a>
+
+        <div class="nav-item-list nav-home-list">
+          <ul>
+            <li>HOGAR ITEM 1</li>
+            <li>HOGAR ITEM 2</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="nav-tecno nav-menu">
+        <a href="#">
+          TECNO
+          <br>
+          <img src="../images/plusIcon.png">
+        </a>
+
+        <div class="nav-item-list nav-tecno-list">
+          <ul>
+            <li>TELÉFONOS CELULARES</li>
+            <li>TABLETS</li>
+            <li>CONSOLAS Y VIDEOJUEGOS</li>
+            <li>SMART TVs</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="nav-vogue nav-menu">
+        <a href="#">
+          MODA
+          <br>
+          <img src="../images/plusIcon.png">
+        </a>
+
+        <div class="nav-item-list nav-vogue-list">
+          <ul>
+            <li>MODA ITEM 1</li>
+            <li>MODA ITEM 2</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="nav-hobbies nav-menu">
+        <a class="active" href="#">
+          HOBBIE
+          <br>
+          <img src="../images/plusIcon.png">
+        </a>
+
+        <div class="nav-item-list nav-hobbies-list">
+          <ul>
+            <li>HOBBIE ITEM 1</li>
+            <li>HOBBIE ITEM 2</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="nav-sports nav-menu">
+        <a href="#">
+          DEPORTES
+          <br>
+          <img src="../images/plusIcon.png">
+        </a>
+        
+        <div class="nav-item-list nav-sports-list">
+          <ul>
+            <li>DEPORTES ITEM 1</li>
+            <li>DEPORTES ITEM 2</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="menu-toggle">
+        <a href="#"><img class="centerElem" src="../images/menuImage.png"></a>
+      </li>
+
+      <div class="nav-menu-list visibility">
+        <ul class="">
+          <li><a href="">INGRESAR</a></li>
+          <li><a href="">REGISTRARSE</a></li>
+          <li><a href="">FAVORITOS</a></li>
+        </ul>
+      </div>
+
+      <li class="nav-cart nav-cart-group">
+        <a href="#">
+          <div class="centerElem">
+            <img class="cartIcon" src="../images/cartImage.png">
+            <span class="badge cartBadge">2</span>
+            <p class="colorWhite">$1059.90</p>
+          </div>
+        </a>
+      </li>
+
+      <div class="nav-cart-list nav-cart-group visibility">
+        <ul class="nav-cart-head">
+          <li>Productos</li>
+          <li>Cantidad</li>
+          <li>Precio</li>
+        </ul>
+        <ul class="nav-cart-body">
+          <li>
+            <p class="nav-cart-title">Reloj Apple watch</p>
+            <p class="nav-cart-desc">Lorem ipsum dolor sit amet</p>
+          </li>
+          <li>1</li>
+          <li>$ 659.00</li>
+        </ul>
+        <ul class="nav-cart-body">
+          <li>
+            <p class="nav-cart-title">Mortero de madera</p>
+            <p class="nav-cart-desc">Lorem ipsum dolor sit amet</p>
+          </li>
+          <li>1</li>
+          <li>$ 400.90</li>
+        </ul>
+        <ul class="nav-cart-footer">
+          <li>Total: $ 1059.90</li>
+          <li>CONFIRMAR COMPRA</li>
+        </ul>
+      </div>
+
+      <li class="nav-signIn">
+        <a href="#">
+          <div class="centerElem">
+            <img class="userIcon" src="../images/userIconImage.png">
+            <p>INGRESAR</p>
+          </div>
+        </a>
+      </li>
+
+      <div class="nav-signIn-dropdown visibility">
+        <div class="nav-signIn-inputs row col-md-12 no-padding">
+
+          <div class="col-md-2 no-padding">
+            <img class="fb-sign-icon" src="../images/fbIcon.png">
+          </div>
+          <div class="col-md-4 no-padding">
+            <img class="email-rectangle-icon" src="../images/rectangleIcon.png">
+            <input class="signIn-password" type="text" placeholder="Ingresa tu E-mail">
+          </div>
+          <div class="col-md-4 no-padding">
+            <img class="pass-rectangle-icon" src="../images/rectangleIcon.png">
+            <input class="signIn-password" type="password" placeholder="Ingresa tu contraseña">
+          </div>
+          <div class="col-md-2 no-padding">
+            <img class="lostpass-icon no-padding" src="../images/unknownIcon.png">
+          </div>
+        </div>
+        <ul class="nav-signIn-buttons">
+          <li><a href="#">INGRESAR</a></li>
+          <li data-toggle="modal" data-target="#registerModal"><a href="#" >REGISTRARSE</a></li>
+        </ul>
+      </div>
+    </ul>
+
+    <!-- END HEADER -->
+
+    <!-- PRODUCT SLIDER -->
+
+    <div class="productSlider productView">
+      <div class="productOne">
+        <p class="productCategory">HOBBIES | VIDEOJUEGOS | CONSOLAS</p>
+        <p class="productName">PS4 Pro</p>
+        <p class="productPrice">$ 13000</p>
+        <div class="productBuyButton">COMPRAR</div>
+      </div>
+      <div class="productTwo">PRODUCT SLIDER 2</div>
+      <div class="productThree">PRODUCT SLIDER 3</div>
+
+      <div class="buttonsContainer">
+        <div class="singleProductButtons productButtons">
+          <div class="productBtn productBtnActive"></div>
+          <div class="productBtn"></div>
+          <div class="productBtn"></div>
+          <div class="productBtn"></div>
+          <div class="productBtn"></div>
+        </div>
+      </div>
+
+      <div class="plusContainer">
+        <div class="plusButtons">
+          <!--<div class="playBtn"></div>
+          <div class="favBtn"></div>
+          <div class="shareBtn"></div>
+          <div class="plusBtn"></div>-->
+          <div class="plusDropdown visibility">
+            <div class="playBtn"><img src="../images/playIconImage.png"></div>
+            <div class="favBtn"><img src="../images/favoriteIconImage.png"></div>
+            <div class="shareBtn"><img src="../images/shareIconImage.png"></div>
+          </div>
+          <div class="plusBtn"><img src="../images/plusIconImage.png"></div>
+        </div>
+      </div>
+
+      <div class="phoneContainer">
+        <div class="phoneProduct">
+          <img src="../images/phoneIconImage.png">
+          <span>COMPRA TELEFÓNICA +58 421 341 44 09</span>
+        </div>
+      </div>
+
+      <div class="viewsPopUp">
+        <img src="../images/binocularsIcon.png">
+        <p>Hay <span>5</span> personas más viendo este artículo en este momento.</p>
+        <div id="closeViews" class="closePopUp"><img src="../images/crossIcon.png"></div>
+      </div>
+
+      <div class="lowPopUp">
+        <img src="../images/alertIcon.png"> <p>Quedan pocas unidades disponibles, no te lo pierdas!</p>
+        <div id="closeLow" class="closePopUp"><img src="../images/crossIcon.png"></div>
+      </div>
+
+      <div class="goodPopUp">
+        <img src="../images/fireIcon.png"> <p>Se han vendido <span>5</span> recientemente. Producto recomendado.</p>
+        <div id="closeGood" class="closePopUp"><img src="../images/crossIcon.png"></div>
+      </div>
+    </div>
+
+    <!-- END PRODUCT SLIDER -->
+
+    <div class="accountPanelContainer">
+      <div class="accountPanelTabs col-md-8 col-sm-12 col-xs-12">
+        <div class="accountTab accountTabPanel productTabs panel-active col-md-7 col-sm-6 col-6 no-select">DESCRIPCIÓN DE PRODUCTO</div>
+        <div class="accountTab accountTabInfo productTabs col-md-5 col-sm-6 col-6 no-select">MENSAJES</div>
+      </div>
+
+      <div class="row">
+        <div class="accountFirstTab col-md-9">
+          <div class="accountFirstTabContent col-md-10 no-padding">
+            <div class="col-md-12">
+              <div class="">
+                <p class="productTitle">PS4 Pro</p>
+                <div class="productExtras row"> 
+                  <div class="productStars">
+                    <img src="../images/star.png">
+                    <img src="../images/star.png">
+                    <img src="../images/star.png">
+                    <img src="../images/star.png">
+                    <img src="../images/halfStar.png">
+                  </div>
+                  <div class="productAvailable">
+                    Disponibilidad: <b>En stock.</b>
+                  </div>
+                  <!-- <div class="productFav float-right">
+                    <img src="../images/heartIcon.png">
+                    18 lo marcaron como favorito.
+                  </div> -->
+                    <div class="col-md-2 col-sm-2 col-xs-2 no-padding-right">
+                      TALLE<br>
+                      <select class="account-panel-input cartSelect colorSelect">
+                        <option value="">M</option>
+                        <option>S</option>
+                        <option>L</option>
+                        <option>XS</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-2 no-padding-right">
+                      COLOR<br>
+                      <select class="account-panel-input cartSelect colorSelect">
+                        <option value="">Amarillo</option>
+                        <option value="">Negro</option>
+                        <option value="">Azul</option>
+                      </select>
+                    </div>
+                </div>
+                <div class="talleHelper col-lg-4 col-md-4 col-sm-4 col-xs-6" data-toggle="modal" data-target="#talleModal">
+                  <img src="../images/alertDarkIcon.png"> Cómo elegir talle
+                </div>
+              </div>
+
+              <div class="productDesc">
+                <h3 class="account-panel-h4"><b>DESCRIPCIÓN:</b></h3>
+                <p class="productDescParagraph">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it to make a type specimen book. When an unknown printer took a gallery of type.</p>
+                <p class="productDescParagraph">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate on provident, similique sunti in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda.</p>
+              </div>
+
+              <!-- <img class="productImg" src="../images/psControllerImage.png">
+              <p class="productDescParagraph">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it to make a type specimen book. When an unknown printer took a gallery of type.</p>
+              <img class="productImg" src="../images/psControllerImage.png"> -->
+              <div class="productFooter">
+                <div class="productsShareFav">
+                  <img src="../images/heartIcon.png">
+                  Agregar a favoritos
+                </div>
+                <div class="productsShareFav" data-toggle="modal" data-target="#shareModal">
+                  <img src="../images/shareIcon.png">
+                  Compartir
+                </div>
+              </div>
+            </div>
+            <div class="productHowTo col-md-12">
+              <h3 class="account-panel-h4"><b>COMO COMPRAR:</b></h3>
+              <p class="productDescParagraph">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of type and scrambled it to make a type specimen book. When an unknown printer took a gallery of type.</p>                
+            </div>
+          </div>
+
+        </div>
+
+        <div class="accountSecondTab col-md-9 visibility">
+          <div class="accountSecondTabContent col-md-10">
+            <h3 class="account-panel-h4"><b>MENSAJE:</b></h3>
+            <textarea class="productComment" name="productComment" placeholder="Escribe una pregunta..."></textarea>
+            <p class="answerTimeText">Tiempo aproximado de respuesta <span>29</span> minutos.</p>
+            <button class="account-panel-btn questionBtn">PREGUNTAR</button>
+
+            <div class="lastQuestions">
+              <h2>Últimas preguntas</h2>
+
+              <div class="questionContainer">
+                <div class="question">
+                  <div class="questionImgDiv">
+                    <img src="../images/questionImage.png">
+                  </div>
+                  <div class="answerText">Se puede abonar con visa en 12 pagos? Cuánto sería el valor? Gracias.</div>
+                </div>
+                
+                <div class="answer">
+                  <div class="questionImgDiv">
+                    <img src="../images/answerImage.png">
+                  </div>
+                  <div class="answerText">Hola FERNANDO CASTELLANO. Con tarjeta solo por mercado pago. Saludos Att. NaceTech! <span class="answerTime">21/6/2017 12:06</span></div>
+                  
+                </div>
+              </div>
+
+              <div class="questionContainer">
+                <div class="question">
+                  <div class="questionImgDiv">
+                    <img src="../images/questionImage.png">
+                  </div>
+                  <div class="answerText">Hola, buenas noches. Si oferto podría pasar a retirar mañana.. te pregunto por el feriado de mañana</div>
+                </div>
+              </div>
+
+              <button class="account-panel-btn-2 verMasBtn">VER MÁS PREGUNTAS</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="purchaseSection col-md-3 no-padding">
+          <p class="productName purchaseName"><i>$13.000.-</i></p>
+          <p class="purchaseVisa col-md-8 no-padding">Pagá en hasta 12 cuotas con tu VISA terminada en 8745.</p>
+          <button class="account-panel-btn-2 purchaseBtn"><a>MÁS OPCIONES</a></button>
+          <h3>Entrega:</h3>
+          <p class="entregaParagraph col-md-8 no-padding">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum.</p>
+          <div>
+            <h3 class="quantityh3">Cantidad</h3>
+            <img class="quantityImg" src="../images/rectangleIcon.png">
+            <input class="quantityInput" type="number">
+          </div>
+          <div class="buyBtnsSection col-md-12 col-sm-12 col-12 no-padding row">
+            <div class="leftBtnSection col-md-7 col-sm-8 col-8 no-padding">
+              <h2>COMPRAR</h2>
+            </div>
+            <div class="col-md-5 col-sm-4 col-4 no-padding">
+              <div class="rightBtnSection col-md-6 col-sm-12 col-12 no-padding">
+                <img class="hideOnMobile" src="../images/cartImage.png">
+                <img class="showOnMobile" src="../images/cartImageBig.png">         
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MOST SOLD -->
+
+    <div class="mostSoldContainer hideOnMobile">
+      <h2>Quizás te gusten</h2>
+      <p class="mostSoldParagraph">Lorem ipsum dolor sit amet.</p>
+
+      <div class="followingWrap">
+        <div class="followingSection float-left">
+          <div class="productWrap float-left">
+            <div class="productImage">
+              <img src="../images/productGlassImage.png">
+            </div>
+            <div class="productDescription">
+              <p class="productSmallName">Ray-Ban aviators</p>
+            </div>
+            <div class="followingButtons">
+              <div class="followingPlusBtn"><img src="../images/plusIconImage.png"></div>
+              <div class="followingPlusDropdown visibility">
+                <div class="followingShareBtn"><img src="../images/shareIconImage.png"></div>
+                <div class="followingFavBtn"><img src="../images/favoriteIconImage.png"></div>
+                <div class="followingPlayBtn"><img src="../images/playIconImage.png"></div>
+                <div class="followingPlayBtnWhite visibility"><img src="../images/playIconImageWhite.png"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="productWrap float-left">
+            <div class="productImage">
+              <img src="../images/productGlassImage.png">
+            </div>
+            <div class="productDescription">
+              <p class="productSmallName">Ray-Ban aviators</p>
+            </div>
+            <div class="followingButtons">
+              <div class="followingPlusBtn"><img src="../images/plusIconImage.png"></div>
+              <div class="followingPlusDropdown visibility">
+                <div class="followingShareBtn"><img src="../images/shareIconImage.png"></div>
+                <div class="followingFavBtn"><img src="../images/favoriteIconImage.png"></div>
+                <div class="followingPlayBtn"><img src="../images/playIconImage.png"></div>
+                <div class="followingPlayBtnWhite visibility"><img src="../images/playIconImageWhite.png"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="productWrap float-left rightBorder">
+            <div class="productImage">
+              <img src="../images/productGlassImage.png">
+            </div>
+            <div class="productDescription">
+              <p class="productSmallName">Ray-Ban aviators</p>
+            </div>
+            <div class="followingButtons">
+              <div class="followingPlusBtn"><img src="../images/plusIconImage.png"></div>
+              <div class="followingPlusDropdown visibility">
+                <div class="followingShareBtn"><img src="../images/shareIconImage.png"></div>
+                <div class="followingFavBtn"><img src="../images/favoriteIconImage.png"></div>
+                <div class="followingPlayBtn"><img src="../images/playIconImage.png"></div>
+                <div class="followingPlayBtnWhite visibility"><img src="../images/playIconImageWhite.png"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="productWrap float-left bottomBorder">
+            <div class="productImage">
+              <img src="../images/productGlassImage.png">
+            </div>
+            <div class="productDescription">
+              <p class="productSmallName">Ray-Ban aviators</p>
+            </div>
+            <div class="followingButtons">
+              <div class="followingPlusBtn"><img src="../images/plusIconImage.png"></div>
+              <div class="followingPlusDropdown visibility">
+                <div class="followingShareBtn"><img src="../images/shareIconImage.png"></div>
+                <div class="followingFavBtn"><img src="../images/favoriteIconImage.png"></div>
+                <div class="followingPlayBtn"><img src="../images/playIconImage.png"></div>
+                <div class="followingPlayBtnWhite visibility"><img src="../images/playIconImageWhite.png"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="productWrap float-left bottomBorder">
+            <div class="productImage">
+              <img src="../images/productGlassImage.png">
+            </div>
+            <div class="productDescription">
+              <p class="productSmallName">Ray-Ban aviators</p>
+            </div>
+            <div class="followingButtons">
+              <div class="followingPlusBtn"><img src="../images/plusIconImage.png"></div>
+              <div class="followingPlusDropdown visibility">
+                <div class="followingShareBtn"><img src="../images/shareIconImage.png"></div>
+                <div class="followingFavBtn"><img src="../images/favoriteIconImage.png"></div>
+                <div class="followingPlayBtn"><img src="../images/playIconImage.png"></div>
+                <div class="followingPlayBtnWhite visibility"><img src="../images/playIconImageWhite.png"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="productWrap float-left bottomBorder rightBorder">
+            <div class="productImage">
+              <img src="../images/productGlassImage.png">
+            </div>
+            <div class="productDescription">
+              <p class="productSmallName">Ray-Ban aviators</p>
+            </div>
+            <div class="followingButtons">
+              <div class="followingPlusBtn"><img src="../images/plusIconImage.png"></div>
+              <div class="followingPlusDropdown visibility">
+                <div class="followingShareBtn"><img src="../images/shareIconImage.png"></div>
+                <div class="followingFavBtn"><img src="../images/favoriteIconImage.png"></div>
+                <div class="followingPlayBtn"><img src="../images/playIconImage.png"></div>
+                <div class="followingPlayBtnWhite visibility"><img src="../images/playIconImageWhite.png"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button><a href="">VER MÁS</a></button>
+
+      </div>
+    </div>
+
+    <!-- END MOST SOLD -->
+
+
+    <!-- NEWSLETTER -->
+
+    <div class="newsletterContainer">
+      <div class="newsletterWrapContent">
+        <span>NEWSLETTER</span>
+        <img src="../images/rectangleIcon.png">
+        <input type="text" placeholder="Ingresa tu dirección de Email">
+        <button href="#" class="newsletterSendBtn"><a href="#"> ENVIAR </a></button>
+      </div>
+    </div>
+
+    <!-- END NEWSLETTER -->
+
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+      <div class="footerMobile">
+        <div>
+          <img class="footerShopStopLogo" src="../images/shopStopGreyLogo.png">
+          <a href="#"><img class="footerMercadoPagoLogo float-right" src="../images/mercadoPago.png"></a>
+        </div>
+        <p class="footerTitle">SOBRE NOSOTROS</p>
+        <p class="paragraph">Lorem ipsum dolor sit amet. lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</p>
+        <p class="paragraph">Lorem ipsum dolor sit amet. lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet Lorem ipsum dolor sit amet. lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametLorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</p>
+      </div>
+
+      <div class="footerDesktop">
+        <div class="footerShopStop">
+          <div>
+            <img class="footerShopStopLogo" src="../images/shopStopGreyLogo.png">
+          </div>
+
+          <div>
+            <span>&nbsp;</span>
+            <br>
+            <p>LO ÚLTIMO &nbsp;&nbsp;&nbsp;&nbsp;+<p>
+            <p>HOGAR &nbsp;&nbsp;&nbsp;&nbsp;+<p>
+            <p>TECNO &nbsp;&nbsp;&nbsp;&nbsp;+<p>
+            <p>MODA &nbsp;&nbsp;&nbsp;&nbsp;+<p>
+            <p>HOBBIES &nbsp;&nbsp;&nbsp;&nbsp;+<p>
+            <p>DEPORTES &nbsp;&nbsp;&nbsp;&nbsp;+<p>
+          </div>
+        </div>
+
+        <div class="footerAboutUs">
+          <p class="footerTitle">SOBRE NOSOTROS</p>
+          <p class="paragraph">Lorem ipsum dolor sit amet. lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</p>
+          <p class="paragraph">Lorem ipsum dolor sit amet. lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet Lorem ipsum dolor sit amet. lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit ametLorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet lorem ipsum dolor sit amet.</p>
+        
+          <div>
+            <a href="#"><img class="footerMercadoPagoLogo" src="../images/mercadoPago.png"></a>
+            <a href="#"><img class="footerFbLogo" src="../images/fbLogoGray.png"></a>
+            <a href="#"><img class="footerTwitterLogo" src="../images/twitterLogoGrey.png"></a>
+            <a href="#"><img class="footerGmailLogo" src="../images/gmailLogoGrey.png"></a>
+            <a href="#"><img class="footerYoutubeLogo" src="../images/youtubeLogo.png"></a>
+          </div>
+        </div>
+
+        <div class="footerContactInfo">
+          <div>
+            <p class="footerTitle">CONTACT <b>INFO</b></p>
+
+            <div class="footerContactContent">
+              <img src="../images/gpsGray.png">
+              <div>
+                <p><span>SHOP</span>STOP</p>
+                <p>Freire 3478, Buenos Aires</p>
+              </div>
+            </div>
+
+            <div class="footerContactContent">
+              <img src="../images/phoneGray.png">
+              <div>
+                <p>PHONE</p>
+                <p>+5411 6254 4389</p>
+              </div>
+            </div>
+
+            <div class="footerContactContent">
+              <img class="footerEmailIcon" src="../images/emailGray.png">
+              <div>
+                <p>EMAIL</p>
+                <p>info@stopshop.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footerCopyright">
+      <p>&copy; &nbsp; 2017 - StopShop. Todos los derechos reservados.</p>
+      <p>Powered by</p>
+      <img src="../images/vertigoLogo.png">
+      <p>vertigo design co</p>
+    </div>
+
+    <!-- END FOOTER -->
+
+
+    <!-- REGISTER MODAL -->
+
+    <div id="registerModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+            <h4 class="modal-title">REGÍSTRATE USANDO TUS REDES</h4>
+            <div>
+              <a href="#"><img class="modal-icon" src="../images/googleIcon.png"></a>
+              <a href="#"><img class="modal-icon" src="../images/fbIcon2.png"></a>
+              <a href="#"><img class="modal-icon" src="../images/twitterIcon.png"></a>
+            </div>
+          </div>
+          <div class="modal-hr"></div>
+          <div class="modal-body">
+            <h4>O CREA TU CUENTA</h4>
+            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder="Apellido">
+            <input type="text" placeholder="Email">
+
+            <p>FECHA DE NACIMIENTO</p>
+            <input class="col-md-3" type="number" placeholder="Día">
+            <input class="col-md-3" type="number" placeholder="Mes">
+            <input class="col-md-3" type="number" placeholder="Año">
+
+            <div class="checkbox-inputs col-md-12">
+              <span>GENERO: </span>
+              <input id="femaleCheck" type="checkbox" name="genero"><label>Femenino</label>
+              <input id="maleCheck" type="checkbox" name="genero"><label>Masculino</label>
+            </div>
+
+            <input type="text" placeholder="DNI">
+            <input id="registerPhone" type="number" placeholder="Teléfono">
+
+            <div class="offers-div checkbox-inputs col-md-12">
+              <input type="checkbox"><label>Quiero recibir ofertas y noticias sobre productos.</label>
+            </div>
+
+            <div class="register-btn-div col-md-12">
+              <button class="registerBtn" data-dismiss="modal"><a href="#">REGISTRARME</a></button>
+              <span>Si ya tenés una cuenta, por favor ingresá haciendo <a href="#">CLICK AQUÍ</a></span>
+            </div>
+
+          </div>
+
+
+          <!--<div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>-->
+        </div>
+
+      </div>
+    </div>
+
+    <!-- END REGISTER MODAL -->
+
+    <!-- SHARE MODAL -->
+
+    <div id="shareModal" class="modal fade" role="dialog">
+      <div class="modal-dialog share-modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
+            <h4 class="modal-title">COMPARTIR EN REDES</h4>
+            <div>
+              <a href="#"><img class="modal-icon" src="../images/googleIcon.png"></a>
+              <a href="#"><img class="modal-icon" src="../images/fbIcon2.png"></a>
+              <a href="#"><img class="modal-icon" src="../images/twitterIcon.png"></a>
+            </div>
+          </div>
+          <div class="modal-hr"></div>
+          <div class="modal-body">
+            <h4>O POR EMAIL</h4>
+            <input type="text" placeholder="Ingresar dirección">
+
+            <div class="register-btn-div col-md-12">
+              <button class="registerBtn" data-dismiss="modal"><a href="#">ENVIAR</a></button>
+            </div>
+
+          </div>
+
+
+          <!--<div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>-->
+        </div>
+
+      </div>
+    </div>
+
+    <!-- END SHARE MODAL -->
+
+    <!-- TALLE MODAL -->
+
+    <div id="talleModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="exitCircle" data-dismiss="modal">x</div>
+        <div class="leftVidArrow"><</div>
+        <div class="rightVidArrow">></div>
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-hr"></div>
+          <div class="modal-body">
+
+            <video class="talleVideo" width="100%" controls>
+                <source src="../images/mov_bbb.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+
+            <h4>CÓMO ELEGIR TALLE</h4>
+            <p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</p>
+            <p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</p>            
+            
+            <div class="socialIconsFooter">
+              <a href="#"><img class="modal-icon" src="../images/googleIcon.png"></a>
+              <a href="#"><img class="modal-icon" src="../images/fbIcon2.png"></a>
+              <a href="#"><img class="modal-icon" src="../images/twitterIcon.png"></a>
+            </div>
+          </div>
+
+
+          <!--<div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>-->
+        </div>
+
+      </div>
+    </div>
+
+    <!-- END TALLE MODAL -->
+
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/moment.min.js"></script>
+    <script src="../libs/bootstrap-datetimepicker-master/build/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="../js/script.js"></script>
+
+  </body>
+
+</html>
